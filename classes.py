@@ -35,6 +35,7 @@ print(dog_main)
 dog_main.bark()
 """
 #### Modeling a Bank Account
+"""
 class BankAccount:
     def __init__(self, owner, balance = 0):
         self.owner = owner
@@ -58,7 +59,18 @@ gopal.deposite(400000)
 gopal.withdraw(1000)
 print(gopal.get_balance())
 
+"""
 
+class Student_info:
+    def __init__(self, name, age, language):
+        self.name = name
+        self.age = age
+        self.language = language
+    def student_info(self):
+        print(f"Name: {self.name}\nAge: {self.age}\nLanguage: {self.language}")
 
-
+student1 = Student_info("Gopal", 19, "Python")
+student1.student_info()
+student2 = Student_info("Yubraj Sing Sardar", "20+", "Desi Bengali")
+student2.student_info()
 
